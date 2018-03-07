@@ -166,13 +166,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// txt control.
+        /// txtgrmdob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt;
+        protected global::System.Web.UI.WebControls.TextBox txtgrmdob;
         
         /// <summary>
         /// Label11 control.

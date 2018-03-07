@@ -103,13 +103,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// TextBox11 control.
+        /// txtstartdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.TextBox txtstartdate;
         
         /// <summary>
         /// Label7 control.
@@ -121,13 +121,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// TextBox12 control.
+        /// txtenddate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.TextBox txtenddate;
         
         /// <summary>
         /// btnsubmit control.

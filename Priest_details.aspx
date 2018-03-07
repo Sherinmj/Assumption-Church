@@ -11,10 +11,20 @@
             width: 93px;
         }
         .auto-style7 {
-            width: 183px;
         }
         .auto-style8 {
             width: 140px;
+        }
+        .auto-style9 {
+            width: 116px;
+            height: 17px;
+        }
+        .auto-style10 {
+            width: 140px;
+            height: 17px;
+        }
+        .auto-style11 {
+            height: 17px;
         }
     </style>
 </asp:Content>
@@ -29,14 +39,16 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3">&nbsp;</td>
-            <td class="auto-style8">&nbsp;</td>
-            <td class="auto-style7">
-                <asp:Label ID="Label1" runat="server" Text="Priest Details"></asp:Label>
+            <td class="auto-style9"></td>
+            <td class="auto-style10">&nbsp;</td>
+            <td class="auto-style11" colspan="2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Text="Priest Details" style="font-weight: 700"></asp:Label>
+                </h3>
             </td>
-            <td class="auto-style5">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style11"></td>
+            <td class="auto-style11"></td>
         </tr>
         <tr>
             <td class="auto-style3">&nbsp;</td>
@@ -116,7 +128,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Service Started From"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="TextBox11" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtstartdate" runat="server" TextMode="Date"></asp:TextBox>
             </td>
             <td class="auto-style5">&nbsp;</td>
             <td>&nbsp;</td>
@@ -136,7 +148,7 @@
                 <asp:Label ID="Label7" runat="server" Text="End Date"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="TextBox12" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtenddate" runat="server" TextMode="Date"></asp:TextBox>
             </td>
             <td class="auto-style5">&nbsp;</td>
             <td>&nbsp;</td>
@@ -154,11 +166,35 @@
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style8">&nbsp;</td>
             <td class="auto-style7">
-                <asp:Button ID="btnsubmit" runat="server" Text="SUBMIT" />
+                <asp:Button ID="btnsubmit" runat="server" Text="SUBMIT" OnClick="btnsubmit_Click" />
             </td>
             <td class="auto-style5">
                 <asp:Button ID="btncancel" runat="server" Text="CANCEL" />
             </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style8">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style8">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style8">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>

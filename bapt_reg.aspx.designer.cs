@@ -31,13 +31,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtchild control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtchild;
         
         /// <summary>
         /// Label3 control.
@@ -49,13 +49,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtdob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtdob;
         
         /// <summary>
         /// Label4 control.
@@ -67,13 +67,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// TextBox3 control.
+        /// txtfather control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtfather;
         
         /// <summary>
         /// Label5 control.
@@ -85,13 +85,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// TextBox4 control.
+        /// txtmother control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox txtmother;
         
         /// <summary>
         /// Label6 control.
@@ -103,13 +103,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// TextBox5 control.
+        /// txtaddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtaddress;
         
         /// <summary>
         /// Label7 control.
@@ -121,13 +121,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// TextBox6 control.
+        /// txtgodfather control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtgodfather;
         
         /// <summary>
         /// Label8 control.
@@ -139,13 +139,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
-        /// TextBox7 control.
+        /// txtgodmother control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox txtgodmother;
         
         /// <summary>
         /// Label9 control.
@@ -157,13 +157,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// TextBox8 control.
+        /// txtreqbaptnm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox txtreqbaptnm;
         
         /// <summary>
         /// Label10 control.
@@ -175,12 +175,30 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// TextBox9 control.
+        /// txtreqbaptdt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox txtreqbaptdt;
+        
+        /// <summary>
+        /// btnregister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnregister;
+        
+        /// <summary>
+        /// btncancel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btncancel;
     }
 }

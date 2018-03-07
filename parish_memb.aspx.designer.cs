@@ -67,13 +67,13 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// ttxtbptname control.
+        /// txtbptname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ttxtbptname;
+        protected global::System.Web.UI.WebControls.TextBox txtbptname;
         
         /// <summary>
         /// Label5 control.
@@ -301,12 +301,21 @@ namespace Assumption_Church {
         protected global::System.Web.UI.WebControls.TextBox txtdesc;
         
         /// <summary>
-        /// Button1 control.
+        /// btnsave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnsave;
+        
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }
