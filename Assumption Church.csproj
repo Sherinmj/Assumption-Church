@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="add_family.aspx" />
     <Content Include="bapt_reg.aspx" />
     <Content Include="bapt_request.aspx" />
     <Content Include="blog.html" />
@@ -68,6 +69,7 @@
     <Content Include="css\style.css" />
     <Content Include="death_request.aspx" />
     <Content Include="donation.aspx" />
+    <Content Include="family_members.aspx" />
     <Content Include="gallery.html" />
     <Content Include="HolyCom_Reg.aspx" />
     <Content Include="icons.html" />
@@ -117,6 +119,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_family.aspx.cs">
+      <DependentUpon>add_family.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_family.aspx.designer.cs">
+      <DependentUpon>add_family.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bapt_reg.aspx.cs">
       <DependentUpon>bapt_reg.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +153,13 @@
     </Compile>
     <Compile Include="donation.aspx.designer.cs">
       <DependentUpon>donation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="family_members.aspx.cs">
+      <DependentUpon>family_members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="family_members.aspx.designer.cs">
+      <DependentUpon>family_members.aspx</DependentUpon>
     </Compile>
     <Compile Include="HolyCom_Reg.aspx.cs">
       <DependentUpon>HolyCom_Reg.aspx</DependentUpon>

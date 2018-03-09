@@ -44,6 +44,17 @@
             width: 105px;
             height: 24px;
         }
+        .auto-style16 {
+            height: 27px;
+        }
+        .auto-style17 {
+            width: 135px;
+            height: 27px;
+        }
+        .auto-style18 {
+            width: 105px;
+            height: 27px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -65,6 +76,32 @@
                 </h3>
             </td>
             <td class="auto-style10"></td>
+        </tr>
+        <tr>
+            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style2">
+                <asp:Label ID="Label34" runat="server" Text="Enter Family ID"></asp:Label>
+            </td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td>&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style11">&nbsp;</td>
@@ -251,17 +288,17 @@
             <td></td>
         </tr>
         <tr>
-            <td class="auto-style11">&nbsp;</td>
-            <td class="auto-style2">
+            <td class="auto-style16"></td>
+            <td class="auto-style17">
                 <asp:Label ID="Label13" runat="server" Text="Husband/Wife Name"></asp:Label>
             </td>
-            <td class="auto-style4">
+            <td class="auto-style16">
                 <asp:TextBox ID="txthuswife" runat="server"></asp:TextBox>
             </td>
-            <td class="auto-style4">
-                &nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style16">
+                </td>
+            <td class="auto-style18"></td>
+            <td class="auto-style16"></td>
         </tr>
         <tr>
             <td class="auto-style11">&nbsp;</td>
