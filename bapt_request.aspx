@@ -49,7 +49,7 @@
                 <asp:Label ID="Label2" runat="server" Text="Child Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtname" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -67,7 +67,7 @@
                 <asp:Label ID="Label3" runat="server" Text="Baptism Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtbptname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtbptname" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -85,7 +85,7 @@
                 <asp:Label ID="Label4" runat="server" Text="Date of Birth"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtdob" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtdob" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -124,7 +124,7 @@
                 <asp:Label ID="Label12" runat="server" Text="Age"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtage" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:TextBox ID="txtage" runat="server" TextMode="Number" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -142,7 +142,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Father's Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtfather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtfather" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -160,7 +160,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Mother's Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtmother" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtmother" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -178,7 +178,7 @@
                 <asp:Label ID="Label8" runat="server" Text="Address"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtaddress" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="txtaddress" runat="server" TextMode="MultiLine" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -196,7 +196,7 @@
                 <asp:Label ID="Label9" runat="server" Text="God father's Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtgodfather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtgodfather" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -214,7 +214,7 @@
                 <asp:Label ID="Label10" runat="server" Text="God mother's Name"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtgodmother" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtgodmother" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -232,7 +232,7 @@
                 <asp:Label ID="Label7" runat="server" Text="Baptism Date"></asp:Label>
             </td>
             <td class="auto-style3">
-                <asp:TextBox ID="txtbaptdate" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtbaptdate" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -247,10 +247,10 @@
         <tr>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style4">
-                <asp:Button ID="btnsubmit" runat="server" Text="SUBMIT" />
+                <asp:Button ID="btnsubmit" runat="server" Text="SUBMIT" Height="32px" Width="80px" />
             </td>
             <td class="auto-style3">
-                <asp:Button ID="btncancel" runat="server" Text="CANCEL" />
+                <asp:Button ID="btncancel" runat="server" Text="CANCEL" Height="32px" Width="80px" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

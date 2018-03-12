@@ -46,13 +46,20 @@
             height: 23px;
             width: 70px;
         }
+        .auto-style17 {
+            width: 34px;
+        }
+        .auto-style18 {
+            height: 23px;
+            width: 34px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style1">
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -62,17 +69,16 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style2" colspan="5">
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="APPLICATION FORM FOR DEATH CERTIFICATE"></asp:Label>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="APPLICATION FORM FOR DEATH CERTIFICATE"></asp:Label>
                 </h3>
             </td>
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -82,13 +88,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label2" runat="server" Text="Applicant's Name"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtapplicant" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtapplicant" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -96,7 +102,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -106,7 +112,7 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label3" runat="server" Text="Gender"></asp:Label>
@@ -123,12 +129,12 @@
                 <asp:Label ID="Label11" runat="server" Text="Age"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtappliage" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtappliage" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style15"></td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -138,13 +144,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label5" runat="server" Text="Address"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtappliaddress" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="txtappliaddress" runat="server" TextMode="MultiLine" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -152,7 +158,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -162,13 +168,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label4" runat="server" Text="Contact Number1"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtcontact1" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:TextBox ID="txtcontact1" runat="server" TextMode="Number" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">
                 &nbsp;</td>
@@ -176,12 +182,12 @@
                 <asp:Label ID="Label17" runat="server" Text="Contact Number2"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtcontact2" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:TextBox ID="txtcontact2" runat="server" TextMode="Number" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -191,7 +197,7 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style4" colspan="2">
                 <asp:Label ID="Label6" runat="server" style="font-weight: 700; text-decoration: underline" Text="DECEASED DETAILS"></asp:Label>
@@ -202,7 +208,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -212,13 +218,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label7" runat="server" Text="Date of Death"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdeathdate" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtdeathdate" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -226,7 +232,7 @@
         </tr>
         <tr>
             <td class="auto-style16">&nbsp;</td>
-            <td class="auto-style10">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
             <td class="auto-style10"></td>
             <td class="auto-style8"></td>
             <td class="auto-style14">&nbsp;</td>
@@ -236,13 +242,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label8" runat="server" Text="Name of Deceased"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdecname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtdecname" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -250,7 +256,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -260,7 +266,7 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label9" runat="server" Text="Gender"></asp:Label>
@@ -277,12 +283,12 @@
                 <asp:Label ID="Label10" runat="server" Text="Age"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtdecage" runat="server" TextMode="Number"></asp:TextBox>
+                <asp:TextBox ID="txtdecage" runat="server" TextMode="Number" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -292,13 +298,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label12" runat="server" Text="Name of Father"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdecfather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtdecfather" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">
                 &nbsp;</td>
@@ -306,12 +312,12 @@
                 <asp:Label ID="Label13" runat="server" Text="Name of Mother"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtdecmother" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtdecmother" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -321,13 +327,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label14" runat="server" Text="Name of Husband/ Wife"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdecHus" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtdecHus" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -335,7 +341,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -345,13 +351,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label15" runat="server" Text="Place of Death"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdecplace" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtdecplace" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -359,7 +365,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -369,13 +375,13 @@
         <tr>
             <td class="auto-style15">
                 &nbsp;</td>
-            <td class="auto-style9">
+            <td class="auto-style17">
                 &nbsp;</td>
             <td class="auto-style9">
                 <asp:Label ID="Label16" runat="server" Text="Death Reason"></asp:Label>
             </td>
             <td class="auto-style7">
-                <asp:TextBox ID="txtdecreason" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="txtdecreason" runat="server" TextMode="MultiLine" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style13">&nbsp;</td>
             <td class="auto-style11">&nbsp;</td>
@@ -383,16 +389,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style13">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -401,30 +398,30 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style13">&nbsp;</td>
+            <td class="auto-style11">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">
-                <asp:Button ID="Button1" runat="server" Text="SUBMIT" OnClick="Button1_Click" />
+                <asp:Button ID="Button1" runat="server" Text="SUBMIT" OnClick="Button1_Click" Height="32px" Width="80px" />
             </td>
             <td class="auto-style13">
                 &nbsp;</td>
             <td class="auto-style11">
-                <asp:Button ID="Button2" runat="server" Text="CANCEL" />
+                <asp:Button ID="Button2" runat="server" Text="CANCEL" Height="32px" Width="80px" />
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style13">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -433,16 +430,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style13">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -451,16 +439,7 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style13">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style15">&nbsp;</td>
-            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
@@ -469,7 +448,34 @@
         </tr>
         <tr>
             <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style13">&nbsp;</td>
+            <td class="auto-style11">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style13">&nbsp;</td>
+            <td class="auto-style11">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style13">&nbsp;</td>
+            <td class="auto-style11">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style15">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
             <td class="auto-style9">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>

@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowDeleting="GridView1_RowDeleting" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowDeleting="GridView1_RowDeleting" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" BackColor="#33CCFF" BorderColor="Lime" BorderStyle="Double" CssClass="auto-style1" ForeColor="#FF0066">
                     <Columns>
                         <asp:TemplateField HeaderText="Priest ID">
                             <EditItemTemplate>
@@ -66,7 +66,7 @@
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="End Date">
                             <EditItemTemplate>
-                                <asp:TextBox ID="TextBox5" runat="server" Enabled='<%# Eval("end_date") %>' Text='<%# Eval("end_date") %>'></asp:TextBox>
+                                <asp:TextBox ID="TextBox5" runat="server" Text='<%# Eval("end_date") %>'></asp:TextBox>
                             </EditItemTemplate>
                             <ItemTemplate>
                                 <asp:Label ID="Label7" runat="server" Text='<%# Eval("end_date") %>'></asp:Label>

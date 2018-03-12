@@ -12,6 +12,7 @@
         .auto-style4 {
             width: 319px;
         }
+        .form-control {}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -29,8 +30,8 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style4">
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="ADD FAMILY"></asp:Label>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label1" runat="server" style="font-weight: 700; color: #0099FF;" Text="ADD FAMILY"></asp:Label>
                 </h3>
             </td>
             <td>&nbsp;</td>
@@ -60,7 +61,7 @@
                 <asp:Label ID="Label3" runat="server" Text="Family Name"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtfamilyname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtfamilyname" CssClass="form-control" placeholder="Family Name" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -74,7 +75,7 @@
                 <asp:Label ID="Label4" runat="server" Text="Joining Date"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtjoiningdt" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtjoiningdt" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -88,7 +89,7 @@
                 <asp:Label ID="Label5" runat="server" Text="E-Mail ID"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtemail" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -102,7 +103,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Username"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtuname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtuname" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -116,7 +117,7 @@
                 <asp:Label ID="Label7" runat="server" Text="Password"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtpasswd" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtpasswd" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -142,7 +143,7 @@
                 <asp:Label ID="Label9" runat="server" Text="House Name"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txthouse" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txthouse" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -156,7 +157,7 @@
                 <asp:Label ID="Label10" runat="server" Text="Post Office"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtpo" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtpo" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -170,7 +171,7 @@
                 <asp:Label ID="Label11" runat="server" Text="District"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtdist" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtdist" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -184,7 +185,7 @@
                 <asp:Label ID="Label12" runat="server" Text="Pincode"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtpincode" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtpincode" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -198,7 +199,7 @@
                 <asp:Label ID="Label13" runat="server" Text="Contact Number 1"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtcontact1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtcontact1" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -212,7 +213,7 @@
                 <asp:Label ID="Label14" runat="server" Text="Contact Number 2"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtcontact2" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtcontact2" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -227,11 +228,31 @@
         </tr>
         <tr>
             <td class="auto-style2">&nbsp;</td>
-            <td class="auto-style3" colspan="2">&nbsp;<asp:Button ID="btnsave" runat="server" Text="SAVE" OnClick="btnsave_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;<asp:Button ID="btnaddmemb" runat="server" Text="Add Parish Members" OnClick="btnaddmemb_Click" />
+            <td class="auto-style4">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style4">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style3" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="btnsave" runat="server" Text="SAVE" OnClick="btnsave_Click" BackColor="#33CCFF" Height="32px" Width="80px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;<asp:Button ID="btnaddmemb" runat="server" Text="Add Parish Members" OnClick="btnaddmemb_Click" BackColor="#33CCFF" Height="32px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="btncancel" runat="server" Text="CANCEL" />
+                <asp:Button ID="btncancel" runat="server" Text="CANCEL" BackColor="#33CCFF" Height="32px" Width="80px" />
             </td>
         </tr>
         <tr>

@@ -75,7 +75,7 @@
             <td class="auto-style4">
                 &nbsp;</td>
             <td class="auto-style4">
-                <asp:TextBox ID="txtchild" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtchild" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td class="auto-style4"></td>
             <td class="auto-style4"></td>
@@ -102,7 +102,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtdob" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtdob" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -129,7 +129,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtfather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtfather" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -156,7 +156,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtmother" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtmother" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -183,7 +183,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtaddress" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="txtaddress" runat="server" TextMode="MultiLine" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -210,7 +210,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtgodfather" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtgodfather" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -237,7 +237,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtgodmother" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtgodmother" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -264,7 +264,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtreqbaptnm" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtreqbaptnm" runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -291,7 +291,7 @@
             <td>
                 &nbsp;</td>
             <td>
-                <asp:TextBox ID="txtreqbaptdt" runat="server" TextMode="Date"></asp:TextBox>
+                <asp:TextBox ID="txtreqbaptdt" runat="server" TextMode="Date" Height="38px" Width="220px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -321,11 +321,11 @@
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style7">
-                <asp:Button ID="btnregister" runat="server" OnClick="btnregister_Click" Text="REGISTER" />
+                <asp:Button ID="btnregister" runat="server" OnClick="btnregister_Click" Text="REGISTER" Height="32px" Width="80px" />
             </td>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btncancel" runat="server" Text="CANCEL" />
+                <asp:Button ID="btncancel" runat="server" Text="CANCEL" Height="32px" Width="80px" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
