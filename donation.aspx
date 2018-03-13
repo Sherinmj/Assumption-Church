@@ -42,7 +42,7 @@
             <td class="auto-style2">&nbsp;</td>
             <td colspan="2">
                 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="DONATION CHART"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="DONATION CHART" ForeColor="#0066FF"></asp:Label>
                 </h3>
             </td>
             <td>&nbsp;</td>
@@ -57,11 +57,18 @@
         </tr>
         <tr>
             <td class="auto-style2">&nbsp;</td>
+            <td class="auto-style3">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">
-                <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Name" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtname" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtname" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -76,10 +83,10 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">
-                <asp:Label ID="Label3" runat="server" Text="E-Mail ID"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="E-Mail ID" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtemail" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtemail" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -94,10 +101,10 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">
-                <asp:Label ID="Label4" runat="server" Text="Phone Number"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Text="Phone Number" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtphone" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtphone" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -112,10 +119,10 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">
-                <asp:Label ID="Label5" runat="server" Text="Amount"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Amount" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtamount" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtamount" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -130,10 +137,10 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3">
-                <asp:Label ID="Label6" runat="server" Text="Purpose"></asp:Label>
+                <asp:Label ID="Label6" runat="server" Text="Purpose" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtpurpose" runat="server" TextMode="MultiLine" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtpurpose" runat="server" TextMode="MultiLine" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -148,7 +155,7 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td class="auto-style3" colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                <asp:Button ID="btnpayment" runat="server" Text="MAKE PAYMENT" OnClick="btnpayment_Click" />
+                <asp:Button ID="btnpayment" runat="server" Text="MAKE PAYMENT" OnClick="btnpayment_Click" ForeColor="#0066FF" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

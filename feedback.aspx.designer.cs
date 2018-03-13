@@ -10,7 +10,7 @@
 namespace Assumption_Church {
     
     
-    public partial class view_profile {
+    public partial class feedback {
         
         /// <summary>
         /// Label1 control.

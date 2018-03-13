@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -14,6 +15,7 @@ namespace Assumption_Church
         SqlConnection con = new SqlConnection();
         string ID = "";
         SqlCommand cmd = new SqlCommand();
+        //string conString = ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;  
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
@@ -143,20 +145,19 @@ namespace Assumption_Church
 
         protected void btnadd_Click(object sender, EventArgs e)
         {
-            foreach(GridViewRow g1 in GridView1.Rows)
-            {
-                SqlConnection con = new SqlConnection();
-                cmd = new SqlCommand("insert into family_memb values('"+g1.Cells[0].Text+"','" + g1.Cells[1].Text + "','" + g1.Cells[2].Text + "','" + g1.Cells[3].Text + "','"+g1.Cells[4].Text+"')");
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-            Response.Write("<script>alert('Inserted Successfully)</script>");
+           
         }
+                 
+             
+
+            //Response.Write("<script>alert('Inserted Successfully)</script>");
+
 
         protected void GridView1_SelectedIndexChanged1(object sender, EventArgs e)
         {
 
         }
-    }
+
+     }
+    
 }

@@ -81,6 +81,7 @@
     <Content Include="donation.aspx" />
     <Content Include="family.aspx" />
     <Content Include="family_members.aspx" />
+    <Content Include="feedback.aspx" />
     <Content Include="gallery.html" />
     <Content Include="HolyCom_Reg.aspx" />
     <Content Include="icons.html" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="family_members.aspx.designer.cs">
       <DependentUpon>family_members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
     </Compile>
     <Compile Include="HolyCom_Reg.aspx.cs">
       <DependentUpon>HolyCom_Reg.aspx</DependentUpon>
