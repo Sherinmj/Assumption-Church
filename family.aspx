@@ -204,7 +204,7 @@
                                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                             </EditItemTemplate>
                             <ItemTemplate>
-                                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Gender">
@@ -226,7 +226,7 @@
                                 <asp:TextBox ID="TextBox4" runat="server" TextMode="Date"></asp:TextBox>
                             </EditItemTemplate>
                             <ItemTemplate>
-                                <asp:TextBox ID="TextBox3" runat="server" TextMode="Date"></asp:TextBox>
+                                <asp:TextBox ID="txtdob" runat="server" TextMode="Date"></asp:TextBox>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Relation to the family">
@@ -237,7 +237,7 @@
                                 <asp:Button ID="Button1" runat="server" Text="Add new Row" OnClick="Button1_Click" />
                             </FooterTemplate>
                             <ItemTemplate>
-                                <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txtrelation" runat="server"></asp:TextBox>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
@@ -256,7 +256,9 @@
         <tr>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style2">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Label ID="lblmsg" runat="server"></asp:Label>
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>

@@ -15,16 +15,18 @@ namespace Assumption_Church
         SqlConnection con = new SqlConnection();
         string ID = "";
         SqlCommand cmd = new SqlCommand();
-        //string conString = ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;  
+        string conString = ConfigurationManager.ConnectionStrings["connstr"].ConnectionString;  
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
             {
                 GenerateAutoID();
                 SetInitialRow();
+                
 
             }
         }
+        
         public void getcon()
         {
             con.ConnectionString = @"Data Source=DESKTOP-7F4GBM7\SQLEXPRESS;Initial Catalog=church;User ID=sa;Password=admin123";
@@ -78,10 +80,10 @@ namespace Assumption_Church
                     for (int i = 1; i <= dtCurrentTable.Rows.Count; i++)
                     {
                         //extract the TextBox values
-                        TextBox name = (TextBox)GridView1.Rows[rowIndex].Cells[1].FindControl("TextBox1");
+                        TextBox name = (TextBox)GridView1.Rows[rowIndex].Cells[1].FindControl("txtname");
                         RadioButtonList rbgender = (RadioButtonList)GridView1.Rows[rowIndex].Cells[2].FindControl("RadioButtonList1");
-                        TextBox dob = (TextBox)GridView1.Rows[rowIndex].Cells[3].FindControl("TextBox3");
-                        TextBox relation = (TextBox)GridView1.Rows[rowIndex].Cells[4].FindControl("TextBox5");
+                        TextBox dob = (TextBox)GridView1.Rows[rowIndex].Cells[3].FindControl("txtdob");
+                        TextBox relation = (TextBox)GridView1.Rows[rowIndex].Cells[4].FindControl("txtrelation");
                         drCurrentRow = dtCurrentTable.NewRow();
                         drCurrentRow["sl.no"] = i + 1;
                         dtCurrentTable.Rows[i - 1]["Name"] = name.Text;
@@ -115,10 +117,10 @@ namespace Assumption_Church
                 {
                     for (int i = 0; i < dt.Rows.Count; i++)
                     {
-                        TextBox name = (TextBox)GridView1.Rows[rowIndex].Cells[1].FindControl("TextBox1");
+                        TextBox name = (TextBox)GridView1.Rows[rowIndex].Cells[1].FindControl("txtname");
                         RadioButtonList rbgender = (RadioButtonList)GridView1.Rows[rowIndex].Cells[2].FindControl("RadioButtonList1");
-                        TextBox dob = (TextBox)GridView1.Rows[rowIndex].Cells[3].FindControl("TextBox3");
-                        TextBox relation = (TextBox)GridView1.Rows[rowIndex].Cells[4].FindControl("TextBox5");
+                        TextBox dob = (TextBox)GridView1.Rows[rowIndex].Cells[3].FindControl("txtdob");
+                        TextBox relation = (TextBox)GridView1.Rows[rowIndex].Cells[4].FindControl("txtrelation");
                         name.Text = dt.Rows[i]["Name"].ToString();
                         rbgender.Text = dt.Rows[i]["Gender"].ToString();
                         dob.Text = dt.Rows[i]["Date of Birth"].ToString();
@@ -135,7 +137,7 @@ namespace Assumption_Church
 
         protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)

@@ -60,5 +60,10 @@ namespace Assumption_Church
         {
 
         }
+
+        protected void txtmrg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

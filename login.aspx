@@ -53,7 +53,7 @@
             <td class="auto-style2"></td>
             <td class="auto-style2">
                 <h3>
-                <asp:Label ID="Label1" runat="server" Text="LOGIN" style="font-weight: 700; color: #6600CC"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="LOGIN" style="font-weight: 700; color: #0066FF" ForeColor="#0066FF"></asp:Label>
                 </h3>
             </td>
             <td class="auto-style2"></td>
@@ -76,11 +76,7 @@
             <td class="auto-style3">&nbsp;</td>
             <td>&nbsp;</td>
             <td>
-                <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
-                    <asp:ListItem>Main Admin</asp:ListItem>
-                    <asp:ListItem>Organizational Admin</asp:ListItem>
-                </asp:RadioButtonList>
-            </td>
+                &nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -103,7 +99,7 @@
             <td class="auto-style3">
                 &nbsp;</td>
             <td>
-                <asp:Label ID="Label2" runat="server" Text="Username"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Username" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtuname" runat="server"></asp:TextBox>
@@ -135,7 +131,7 @@
             <td class="auto-style3">
                 &nbsp;</td>
             <td>
-                <asp:Label ID="Label3" runat="server" Text="Password"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Password" ForeColor="#0066FF"></asp:Label>
             </td>
             <td>
                 <asp:TextBox ID="txtpasswd" runat="server"></asp:TextBox>
@@ -144,14 +140,14 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
-            <td class="auto-style3">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style2"></td>
+            <td class="auto-style6"></td>
+            <td class="auto-style4"></td>
+            <td class="auto-style4"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
+            <td class="auto-style2"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -160,7 +156,7 @@
             <td class="auto-style3">&nbsp;</td>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btnsubmit" runat="server" OnClick="Button1_Click" Text="SUBMIT" />
+                <asp:Button ID="btnsubmit" runat="server" OnClick="Button1_Click" Text="SUBMIT" ForeColor="#0066FF" />
             </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

@@ -114,7 +114,7 @@
                 &nbsp;</td>
             <td class="auto-style3" colspan="4">
                 <h3>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="APPLICATION FORM FOR MARRIAGE CERTIFICATE" ForeColor="#009933"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" style="font-weight: 700; color: #0000FF;" Text="APPLICATION FORM FOR MARRIAGE CERTIFICATE" ForeColor="#0066FF"></asp:Label>
                 </h3>
             </td>
             <td class="auto-style19">&nbsp;</td>
@@ -131,10 +131,10 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label2" runat="server" Text="Date of Marriage"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Date of Marriage" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtmrg" runat="server" TextMode="Date" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtmrg" runat="server" TextMode="Date" Width="220px" Height="38px" OnTextChanged="txtmrg_TextChanged"></asp:TextBox>
             </td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
@@ -152,7 +152,7 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label3" runat="server" style="font-weight: 700; text-decoration: underline" Text="GROOM'S DETAILS"></asp:Label>
+                <asp:Label ID="Label3" runat="server" style="font-weight: 700; text-decoration: underline" Text="GROOM'S DETAILS" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
@@ -171,16 +171,16 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label4" runat="server" Text="Name"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Text="Name" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtgrmname" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmname" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">
-                <asp:Label ID="Label5" runat="server" Text="Baptism Name"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Baptism Name" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style21">
-                <asp:TextBox ID="txtgrmbpt" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmbpt" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style19">&nbsp;</td>
         </tr>
@@ -196,10 +196,10 @@
             <td class="auto-style41">
                 </td>
             <td class="auto-style42">
-                <asp:Label ID="Label6" runat="server" Text="Parish Name"></asp:Label>
+                <asp:Label ID="Label6" runat="server" Text="Parish Name" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style43">
-                <asp:TextBox ID="txtgrmparish" runat="server" OnTextChanged="txtgrmparish_TextChanged" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmparish" runat="server" OnTextChanged="txtgrmparish_TextChanged" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style44"></td>
             <td class="auto-style44"></td>
@@ -217,10 +217,10 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label7" runat="server" Text="Address"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Text="Address" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtgrmaddress" runat="server" TextMode="MultiLine" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmaddress" runat="server" TextMode="MultiLine" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
@@ -238,16 +238,16 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label8" runat="server" Text="Name of Father"></asp:Label>
+                <asp:Label ID="Label8" runat="server" Text="Name of Father" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtgrmfather" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmfather" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">
-                <asp:Label ID="Label9" runat="server" Text="Name of Mother"></asp:Label>
+                <asp:Label ID="Label9" runat="server" Text="Name of Mother" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style21">
-                <asp:TextBox ID="txtgrmmother" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmmother" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style19">&nbsp;</td>
         </tr>
@@ -263,16 +263,16 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label10" runat="server" Text="Date of Birth"></asp:Label>
+                <asp:Label ID="Label10" runat="server" Text="Date of Birth" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtgrmdob" runat="server" TextMode="Date" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmdob" runat="server" TextMode="Date" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">
-                <asp:Label ID="Label11" runat="server" Text="Baptism Date"></asp:Label>
+                <asp:Label ID="Label11" runat="server" Text="Baptism Date" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style21">
-                <asp:TextBox ID="txtgrmbaptdate" runat="server" TextMode="Date" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtgrmbaptdate" runat="server" TextMode="Date" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style19">&nbsp;</td>
         </tr>
@@ -293,131 +293,11 @@
             <td class="auto-style19">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label12" runat="server" style="font-weight: 700; text-decoration: underline" Text="BRIDES DETAILS"></asp:Label>
-            </td>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
             <td class="auto-style37">&nbsp;</td>
             <td class="auto-style17">&nbsp;</td>
             <td class="auto-style18">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label13" runat="server" Text="Name"></asp:Label>
-            </td>
-            <td class="auto-style18">
-                <asp:TextBox ID="txtbrdname" runat="server" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style21">
-                <asp:Label ID="Label15" runat="server" Text="Baptism Name"></asp:Label>
-            </td>
-            <td class="auto-style21">
-                <asp:TextBox ID="txtbrdbptname" runat="server" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">&nbsp;</td>
-            <td class="auto-style17">&nbsp;</td>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label14" runat="server" Text="Parish Name"></asp:Label>
-            </td>
-            <td class="auto-style18">
-                <asp:TextBox ID="txtbrdparish" runat="server" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">&nbsp;</td>
-            <td class="auto-style17">&nbsp;</td>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label16" runat="server" Text="Address"></asp:Label>
-            </td>
-            <td class="auto-style18">
-                <asp:TextBox ID="txtbrdaddress" runat="server" TextMode="MultiLine" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">&nbsp;</td>
-            <td class="auto-style17">&nbsp;</td>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label17" runat="server" Text="Name of Father"></asp:Label>
-            </td>
-            <td class="auto-style18">
-                <asp:TextBox ID="txtbrdfather" runat="server" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style21">
-                <asp:Label ID="Label18" runat="server" Text="Name of Mother"></asp:Label>
-            </td>
-            <td class="auto-style21">
-                <asp:TextBox ID="txtbrdmother" runat="server" Width="140px"></asp:TextBox>
-            </td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">&nbsp;</td>
-            <td class="auto-style17">&nbsp;</td>
-            <td class="auto-style18">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style21">&nbsp;</td>
-            <td class="auto-style19">&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style37">
-                &nbsp;</td>
-            <td class="auto-style17">
-                <asp:Label ID="Label19" runat="server" Text="Date of Birth"></asp:Label>
-            </td>
-            <td class="auto-style18">
-                <asp:TextBox ID="txtbrddob" runat="server" TextMode="Date" Width="140px" OnTextChanged="txtbrddob_TextChanged"></asp:TextBox>
-            </td>
-            <td class="auto-style21">
-                <asp:Label ID="Label20" runat="server" Text="Baptism Date"></asp:Label>
-            </td>
-            <td class="auto-style21">
-                <asp:TextBox ID="txtbrdbptdate" runat="server" TextMode="Date" Width="140px"></asp:TextBox>
-            </td>
             <td class="auto-style19">&nbsp;</td>
         </tr>
         <tr>
@@ -440,10 +320,54 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label21" runat="server" Text="Marriage conducted Parish"></asp:Label>
+                <asp:Label ID="Label12" runat="server" style="font-weight: 700; text-decoration: underline" Text="BRIDES DETAILS" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label13" runat="server" Text="Name" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtmrgparish" runat="server" OnTextChanged="txtmrgparish_TextChanged" Width="140px" Enabled="False"></asp:TextBox>
+                <asp:TextBox ID="txtbrdname" runat="server" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style21">
+                <asp:Label ID="Label15" runat="server" Text="Baptism Name" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style21">
+                <asp:TextBox ID="txtbrdbptname" runat="server" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label14" runat="server" Text="Parish Name" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">
+                <asp:TextBox ID="txtbrdparish" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
@@ -461,10 +385,110 @@
             <td class="auto-style37">
                 &nbsp;</td>
             <td class="auto-style17">
-                <asp:Label ID="Label22" runat="server" Text="Marriage conducted Priest"></asp:Label>
+                <asp:Label ID="Label16" runat="server" Text="Address" ForeColor="#0066FF"></asp:Label>
             </td>
             <td class="auto-style18">
-                <asp:TextBox ID="txtmrgpriest" runat="server" Width="140px"></asp:TextBox>
+                <asp:TextBox ID="txtbrdaddress" runat="server" TextMode="MultiLine" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label17" runat="server" Text="Name of Father" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">
+                <asp:TextBox ID="txtbrdfather" runat="server" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style21">
+                <asp:Label ID="Label18" runat="server" Text="Name of Mother" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style21">
+                <asp:TextBox ID="txtbrdmother" runat="server" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label19" runat="server" Text="Date of Birth" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">
+                <asp:TextBox ID="txtbrddob" runat="server" TextMode="Date" Width="220px" OnTextChanged="txtbrddob_TextChanged" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style21">
+                <asp:Label ID="Label20" runat="server" Text="Baptism Date" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style21">
+                <asp:TextBox ID="txtbrdbptdate" runat="server" TextMode="Date" Width="220px" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label21" runat="server" Text="Marriage conducted Parish" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">
+                <asp:TextBox ID="txtmrgparish" runat="server" OnTextChanged="txtmrgparish_TextChanged" Width="220px" Enabled="False" Height="38px"></asp:TextBox>
+            </td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">&nbsp;</td>
+            <td class="auto-style17">&nbsp;</td>
+            <td class="auto-style18">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style21">&nbsp;</td>
+            <td class="auto-style19">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style37">
+                &nbsp;</td>
+            <td class="auto-style17">
+                <asp:Label ID="Label22" runat="server" Text="Marriage conducted Priest" ForeColor="#0066FF"></asp:Label>
+            </td>
+            <td class="auto-style18">
+                <asp:TextBox ID="txtmrgpriest" runat="server" Width="220px" Height="38px"></asp:TextBox>
             </td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style21">&nbsp;</td>
@@ -490,10 +514,10 @@
             <td class="auto-style37">&nbsp;</td>
             <td class="auto-style17">&nbsp;</td>
             <td class="auto-style18">
-                <asp:Button ID="Button1" runat="server" Text="SUBMIT" BackColor="#00CC00" OnClick="Button1_Click" />
+                <asp:Button ID="Button1" runat="server" Text="SUBMIT" OnClick="Button1_Click" ForeColor="#0066FF" Height="32px" Width="80px" />
             </td>
             <td class="auto-style21">
-                <asp:Button ID="Button2" runat="server" Text="CANCEL" BackColor="#00CC00" />
+                <asp:Button ID="Button2" runat="server" Text="CANCEL" ForeColor="#0066FF" Height="32px" Width="80px" />
             </td>
             <td class="auto-style21">&nbsp;</td>
             <td class="auto-style19">&nbsp;</td>
