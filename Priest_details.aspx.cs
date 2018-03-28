@@ -6,16 +6,42 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
-namespace Assumption_Church
+namespace ChurchWebPortal
 {
     public partial class Priest_details : System.Web.UI.Page
     {
         SqlConnection con = new SqlConnection();
+        String connectionString = ConfigurationManager.ConnectionStrings["Assumption"].ConnectionString;
+        String query = "";
+        SqlCommand cmd;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            con.ConnectionString = @"Data Source=DESKTOP-7F4GBM7\SQLEXPRESS;Initial Catalog=church;User ID=sa;Password=admin123";
-            con.Open();
+           
+          
+            con = new SqlConnection(connectionString);
+            if (con.State == ConnectionState.Closed)
+            {
+                con.Open();
+            }
+            query = "select * from priest_details";
+            cmd = new SqlCommand(query, con);
+            cmd.ExecuteNonQuery();
+
+            SqlDataAdapter adr = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+
+            adr.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                GridView1.DataSource = dt;
+                GridView1.DataBind();
+
+            }
+
+
 
         }
 
@@ -41,6 +67,26 @@ namespace Assumption_Church
 
 
             }
+
+        }
+
+        protected void GridView1_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+
+        }
+
+        protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+        }
+
+        protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+
+        }
+
+        protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
 
         }
     }

@@ -1,26 +1,23 @@
-﻿<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ChurchWebPortal.Main" %>
+
 <!DOCTYPE html>
-<html lang="zxx">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Interiors a Interior Design Category Bootstrap Responsive Website Template | Home :: w3layouts</title>    
+<title>Assumption church Eravinalloor</title>    
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
 <!-- meta tags -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Interiors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //meta tags -->
 <!--fonts-->
-<link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=latin-ext" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=latin-ext" rel="stylesheet"/>
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
 <!--//fonts-->
 </head>
 <body>
@@ -48,16 +45,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li class="dropdown">
+                      <li><a href="about.html">News/Announcements</a></li>
+					
+					<%--<li class="dropdown">
 					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 					  <ul class="dropdown-menu">
 						<li><a href="typography.html">Short Codes</a></li>
 						<li><a href="icons.html">Icons Page</a></li>
 					  </ul>
-					</li>
-					<li><a href="blog.html">Blog</a></li>
+					</li>--%>
+                
+					<li><a href="blog.html">Organizations</a></li>
+                      <li><a href="Donation.aspx">Donation</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
 					<li><a href="contact.html">Contact</a></li>
+                      <li><a href="Login.aspx">Login</a></li>
 				  </ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -71,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- banner-slider -->
 	<div class="w3layouts-slider">
 		<div class="content">
-			<div id="w3layouts-title">What is<span class="color-1">done</span>in<span class="color-2">Love</span>is <span class="color-3">done</span> well</div>
+			<div id="w3layouts-title">Hail Mary<span class="color-1">Full Of</span>Grace<span class="color-2">The Lord</span>is <span class="color-3">With </span> You</div>
 		</div>
 	</div>	
 	<!-- //banner-slider -->
@@ -82,9 +84,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			  <div class="w3ls-welcome_sec">
 				 <div class="col-md-6 w3l-welcome_info">
-					  <h3>Welcome</h3>
+					  <h3>Welcome to Assumption Church Eravinallor</h3>
 					  <span></span>
-					  <h4>Ut eget neque ac ipsum venenatis lobortis at et diam.</h4>
+					  <h4>Mary Matha</h4>
 					  <p>Curabitur porta nisl non dui lobortis, vel aliquet ex pretium. Vivamus ullamcorper odio at commodo egestas.
 					  Mauris lacinia nibh a enim dictum, sit amet scelerisque enim molestie. Morbi ac laoreet ante, quis fermentum urna. 
 					  Etiam sit amet massa non nunc tincidunt mattis. Nunc non ex ultricies, tristique leo sed, vehicula mauris. Sed mollis tristique ligula, nec euismod dolor pharetra non.</p>
@@ -93,7 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <a href="about.html" class="hvr-bounce-to-bottom">Read More</a>
 				 </div>
 				 <div class="col-md-6 w3l-welcome_pic">
-					 <h2>Suspendisse massa pellentesque</h2>
+					 <h2>St.Sebastian</h2>
 					 <img src="images/11.jpg" class="img-responsive" alt=""/>
 					 <h3>Vestibulum efficitur lacus nulla porttitor lorem luctus.</h3>
 					 <p>Duis vitae auctor purus. Aenean feugiat nunc mauris, id porttitor turpis 
@@ -107,55 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //welcome section -->		
 	<!-- what-we-do -->
-	<div class="agileinfo-wwd">
-		<h3>What We Do</h3>
-		<div class="container">
-			<div class="col-md-6 agileits-bottom-left text-center">
-			<ul id="sti-menu" class="sti-menu">
-				<li data-hovercolor="#fff">
-					<a href="#">
-						<h4 data-type="mText" class="sti-item">NEW DESIGNS</h4>
-						<p data-type="sText" class="sti-item">Voluptatem quia voluptas</p>
-						<i class="glyphicon glyphicon-lamp" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li data-hovercolor="#fff">
-					<a href="#">
-						<h4 data-type="mText" class="sti-item">QUALITY</h4>
-						<p data-type="sText" class="sti-item">Voluptatem quia voluptas</p>
-						<i class="glyphicon glyphicon-saved" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li data-hovercolor="#fff">
-					<a href="#">
-						<h4 data-type="mText" class="sti-item">DELIVERY</h4>
-						<p data-type="sText" class="sti-item">Voluptatem quia voluptas</p>
-						<i class="glyphicon glyphicon-home" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li data-hovercolor="#fff">
-					<a href="#">
-						<h4 data-type="mText" class="sti-item">BRANDINGS</h4>
-						<p data-type="sText" class="sti-item">Voluptatem quia voluptas</p>
-						<i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>
-					</a>
-				</li>				
-			</ul>
-
-			<div class="clearfix"></div>
-		</div>
-			<div class="col-md-6 wthree-bottom-right  grid">
-				<figure class="effect-moses">
-							<img src="images/33.jpg" alt="" />
-							<figcaption>
-								<h4>Stylewell</h4>
-								<p>voluptatem quia voluptas sit.</p>
-							</figcaption>			
-				</figure>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+	
 	<!-- //what-we-do -->
 	<!-- interior-designs -->
 	<div class="w3-agileits-interior-design">
@@ -250,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 agileinfo-newsletter">
 				<form action="#" method="get">
 					<input type="email"	placeholder="Enter Your Email" required="" />
-					<input type="submit" value="Subscribe">
+					<input type="submit" value="Subscribe"/>
 				</form>
 			</div>
 			<div class="clearfix"> </div>
@@ -368,4 +322,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- start-smoth-scrolling -->
 	<!-- //here ends scrolling icon -->	
 </body>
+
 </html>

@@ -10,7 +10,7 @@
 namespace ChurchWebPortal {
     
     
-    public partial class add_family {
+    public partial class Bapt_reg {
         
         /// <summary>
         /// Label1 control.
@@ -31,13 +31,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// lblfamilyid control.
+        /// txtchild control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblfamilyid;
+        protected global::System.Web.UI.WebControls.TextBox txtchild;
         
         /// <summary>
         /// Label3 control.
@@ -49,13 +49,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// txtfamilyname control.
+        /// txtdob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtfamilyname;
+        protected global::System.Web.UI.WebControls.TextBox txtdob;
         
         /// <summary>
         /// Label4 control.
@@ -67,13 +67,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// txtjoiningdt control.
+        /// txtfather control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtjoiningdt;
+        protected global::System.Web.UI.WebControls.TextBox txtfather;
         
         /// <summary>
         /// Label5 control.
@@ -85,13 +85,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// txtemail control.
+        /// txtmother control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtemail;
+        protected global::System.Web.UI.WebControls.TextBox txtmother;
         
         /// <summary>
         /// Label6 control.
@@ -103,13 +103,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// txtuname control.
+        /// txtaddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtuname;
+        protected global::System.Web.UI.WebControls.TextBox txtaddress;
         
         /// <summary>
         /// Label7 control.
@@ -121,13 +121,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// txtpasswd control.
+        /// txtgodfather control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpasswd;
+        protected global::System.Web.UI.WebControls.TextBox txtgodfather;
         
         /// <summary>
         /// Label8 control.
@@ -139,6 +139,15 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
+        /// txtgodmother control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtgodmother;
+        
+        /// <summary>
         /// Label9 control.
         /// </summary>
         /// <remarks>
@@ -148,13 +157,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// txthouse control.
+        /// txtreqbaptnm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txthouse;
+        protected global::System.Web.UI.WebControls.TextBox txtreqbaptnm;
         
         /// <summary>
         /// Label10 control.
@@ -166,103 +175,22 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// txtpo control.
+        /// txtreqbaptdt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpo;
+        protected global::System.Web.UI.WebControls.TextBox txtreqbaptdt;
         
         /// <summary>
-        /// Label11 control.
+        /// btnregister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label11;
-        
-        /// <summary>
-        /// txtdist control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtdist;
-        
-        /// <summary>
-        /// Label12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label12;
-        
-        /// <summary>
-        /// txtpincode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpincode;
-        
-        /// <summary>
-        /// Label13 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label13;
-        
-        /// <summary>
-        /// txtcontact1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtcontact1;
-        
-        /// <summary>
-        /// Label14 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label14;
-        
-        /// <summary>
-        /// txtcontact2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtcontact2;
-        
-        /// <summary>
-        /// btnsave control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsave;
-        
-        /// <summary>
-        /// btnaddmemb control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnaddmemb;
+        protected global::System.Web.UI.WebControls.Button btnregister;
         
         /// <summary>
         /// btncancel control.

@@ -6,8 +6,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
-namespace Assumption_Church
+namespace ChurchWebPortal
 {
     public partial class add_family : System.Web.UI.Page
     {
@@ -19,20 +20,20 @@ namespace Assumption_Church
             if (!IsPostBack)
             {
                 GenerateAutoID();
-                Response.Write("<script>alert('Family id is +family_id')</script>");
+               // Response.Write("<script>alert('Family id is +family_id')</script>");
             }
 
         }
         public void getcon()
         {
-            con.ConnectionString = @"Data Source=DESKTOP-7F4GBM7\SQLEXPRESS;Initial Catalog=church;User ID=sa;Password=admin123";
+            con.ConnectionString = ConfigurationManager.ConnectionStrings["Assumption"].ConnectionString;
             con.Open();
 
         }
         private void GenerateAutoID()
         {
             getcon();
-            string str = "select Count(family_id) from add_family";
+            string str = "select Count(family_id) from family";
             SqlCommand cmd = new SqlCommand(str, con);
             int i = Convert.ToInt32(cmd.ExecuteScalar());
             con.Close();
@@ -43,40 +44,26 @@ namespace Assumption_Church
         protected void btnsave_Click(object sender, EventArgs e)
         {
             getcon();
-            String ins = "insert into add_family values('" + lblfamilyid.Text + "','" + txtfamilyname.Text + "','" + txtjoiningdt.Text + "','" + txtemail.Text + "','" + txtuname.Text + "','" + txtpasswd.Text + "','" + txthouse.Text + "','" + txtpo.Text + "','"+txtdist.Text+"','"+txtpincode.Text+"','"+txtcontact1.Text+"','"+txtcontact2.Text+"')";
+            String ins = "insert into family values('" + txtfamilyname.Text + "','" + txtjoiningdt.Text + "','" + txtemail.Text + "','" + txtuname.Text + "','" + txtpasswd.Text + "','" + txthouse.Text + "','" + txtpo.Text + "','" + txtdist.Text + "','" + txtpincode.Text + "','" + txtcontact1.Text + "','" + txtcontact2.Text + "')";
             SqlCommand cmd = new SqlCommand(ins, con);
             cmd.ExecuteNonQuery();
 
-            txtfamilyname.Text = "";
-            txtjoiningdt.Text = "";          
-            txtemail.Text = "";            
-            txtuname.Text = "";
-            txtpasswd.Text = "";
-            txthouse.Text = "";
-            txtpo.Text = "";
-            txtdist.Text = "";
-            txtpincode.Text = "";
-            txtcontact1.Text = "";
-            txtcontact2.Text = "";
-            Response.Write("<script>alert('Family added Successfully')</script>");
             
+            Response.Write("<script>alert('Family added Successfully')</script>");
+
 
         }
 
         protected void btnaddmemb_Click(object sender, EventArgs e)
         {
-           //void StoreSessionInfo()
-           //{
-           //    String familyid = lblfamilyid.Text;
-           //    Session["familyid"] = familyid;
-           //}     
-        } 
+            Response.Redirect("Family_memb.aspx");
+            Session["Family ID"] = lblfamilyid.Text;
+        }
 
         //protected void btnaddfamily_Click(object sender, EventArgs e)
         //{
         //    Response.Redirect("parish_memb.aspx");
         //}
- 
-     }
-} 
-    
+
+    }
+}

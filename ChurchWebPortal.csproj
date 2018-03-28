@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE919FDE-6239-450C-93A1-454D0ADB1791}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChurchWebPortal</RootNamespace>
+    <AssemblyName>ChurchWebPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="add_family.aspx" />
+    <Content Include="add_news.aspx" />
+    <Content Include="Bapt_reg.aspx" />
+    <Content Include="Bapt_request.aspx" />
+    <Content Include="blog.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\chocolat.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Death_request.aspx" />
+    <Content Include="Donation.aspx" />
+    <Content Include="Family.aspx" />
+    <Content Include="Family_memb.aspx" />
+    <Content Include="Feedback.aspx" />
+    <Content Include="gallery.html" />
+    <Content Include="gallery_add.aspx" />
+    <Content Include="Holycom_Reg.aspx" />
+    <Content Include="icons.html" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\22.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\44.jpg" />
+    <Content Include="images\55.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\g7.jpg" />
+    <Content Include="images\g8.jpg" />
+    <Content Include="images\g9.jpg" />
+    <Content Include="images\left.png" />
+    <Content Include="images\right.png" />
+    <Content Include="images\single-post-img.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="images\top-arrow.png" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\controls.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery.chocolat.js" />
+    <Content Include="js\jquery.filterizr.js" />
+    <Content Include="js\jquery.iconmenu.js" />
+    <Content Include="js\jquery.mkinfinite.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="mainadminHome.aspx" />
+    <Content Include="mainHome.aspx" />
+    <Content Include="MainMasterHome.aspx" />
+    <Content Include="Marriage_request.aspx" />
+    <Content Include="organizationHome.aspx" />
+    <Content Include="ParishmembHome.aspx" />
+    <Content Include="Parish_memb.aspx" />
+    <Content Include="Prayer_request.aspx" />
+    <Content Include="Priest_details.aspx" />
+    <Content Include="single.html" />
+    <Content Include="student_details.aspx" />
+    <Content Include="teacher_details.aspx" />
+    <Content Include="typography.html" />
+    <Content Include="UserHome.aspx" />
+    <Content Include="view_BaptReg.aspx" />
+    <Content Include="view_baptRequest.aspx" />
+    <Content Include="view_gallery.aspx" />
+    <Content Include="View_priest.aspx" />
+    <Content Include="View_profile.aspx" />
+    <Content Include="w3layouts-License.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_family.aspx.cs">
+      <DependentUpon>add_family.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_family.aspx.designer.cs">
+      <DependentUpon>add_family.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_news.aspx.cs">
+      <DependentUpon>add_news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_news.aspx.designer.cs">
+      <DependentUpon>add_news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bapt_reg.aspx.cs">
+      <DependentUpon>Bapt_reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bapt_reg.aspx.designer.cs">
+      <DependentUpon>Bapt_reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bapt_request.aspx.cs">
+      <DependentUpon>Bapt_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bapt_request.aspx.designer.cs">
+      <DependentUpon>Bapt_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Death_request.aspx.cs">
+      <DependentUpon>Death_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Death_request.aspx.designer.cs">
+      <DependentUpon>Death_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donation.aspx.cs">
+      <DependentUpon>Donation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donation.aspx.designer.cs">
+      <DependentUpon>Donation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Family.aspx.cs">
+      <DependentUpon>Family.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Family.aspx.designer.cs">
+      <DependentUpon>Family.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Family_memb.aspx.cs">
+      <DependentUpon>Family_memb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Family_memb.aspx.designer.cs">
+      <DependentUpon>Family_memb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gallery_add.aspx.cs">
+      <DependentUpon>gallery_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gallery_add.aspx.designer.cs">
+      <DependentUpon>gallery_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Holycom_Reg.aspx.cs">
+      <DependentUpon>Holycom_Reg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Holycom_Reg.aspx.designer.cs">
+      <DependentUpon>Holycom_Reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainAdmin.Master.cs">
+      <DependentUpon>MainAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainAdmin.Master.designer.cs">
+      <DependentUpon>MainAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mainadminHome.aspx.cs">
+      <DependentUpon>mainadminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainadminHome.aspx.designer.cs">
+      <DependentUpon>mainadminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mainHome.aspx.cs">
+      <DependentUpon>mainHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainHome.aspx.designer.cs">
+      <DependentUpon>mainHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMasterHome.aspx.cs">
+      <DependentUpon>MainMasterHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMasterHome.aspx.designer.cs">
+      <DependentUpon>MainMasterHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marriage_request.aspx.cs">
+      <DependentUpon>Marriage_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marriage_request.aspx.designer.cs">
+      <DependentUpon>Marriage_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Organization.Master.cs">
+      <DependentUpon>Organization.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Organization.Master.designer.cs">
+      <DependentUpon>Organization.Master</DependentUpon>
+    </Compile>
+    <Compile Include="organizationHome.aspx.cs">
+      <DependentUpon>organizationHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="organizationHome.aspx.designer.cs">
+      <DependentUpon>organizationHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParishmembHome.aspx.cs">
+      <DependentUpon>ParishmembHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParishmembHome.aspx.designer.cs">
+      <DependentUpon>ParishmembHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Parish_memb.aspx.cs">
+      <DependentUpon>Parish_memb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parish_memb.aspx.designer.cs">
+      <DependentUpon>Parish_memb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prayer_request.aspx.cs">
+      <DependentUpon>Prayer_request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prayer_request.aspx.designer.cs">
+      <DependentUpon>Prayer_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Priest_details.aspx.cs">
+      <DependentUpon>Priest_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Priest_details.aspx.designer.cs">
+      <DependentUpon>Priest_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Parish_memb.Master.cs">
+      <DependentUpon>Parish_memb.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parish_memb.Master.designer.cs">
+      <DependentUpon>Parish_memb.Master</DependentUpon>
+    </Compile>
+    <Compile Include="student_details.aspx.cs">
+      <DependentUpon>student_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student_details.aspx.designer.cs">
+      <DependentUpon>student_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher_details.aspx.cs">
+      <DependentUpon>teacher_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher_details.aspx.designer.cs">
+      <DependentUpon>teacher_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome.aspx.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome.aspx.designer.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_BaptReg.aspx.cs">
+      <DependentUpon>view_BaptReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_BaptReg.aspx.designer.cs">
+      <DependentUpon>view_BaptReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_baptRequest.aspx.cs">
+      <DependentUpon>view_baptRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_baptRequest.aspx.designer.cs">
+      <DependentUpon>view_baptRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_gallery.aspx.cs">
+      <DependentUpon>view_gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_gallery.aspx.designer.cs">
+      <DependentUpon>view_gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View_priest.aspx.cs">
+      <DependentUpon>View_priest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View_priest.aspx.designer.cs">
+      <DependentUpon>View_priest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View_profile.aspx.cs">
+      <DependentUpon>View_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View_profile.aspx.designer.cs">
+      <DependentUpon>View_profile.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MainAdmin.Master" />
+    <Content Include="Parish_memb.Master" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Main.Master" />
+    <Content Include="Organization.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="church_imgs\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1698</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1698/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -10,7 +10,7 @@
 namespace ChurchWebPortal {
     
     
-    public partial class Priest_details {
+    public partial class Donation {
         
         /// <summary>
         /// Label1 control.
@@ -31,13 +31,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// txtpriest control.
+        /// txtname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpriest;
+        protected global::System.Web.UI.WebControls.TextBox txtname;
         
         /// <summary>
         /// Label3 control.
@@ -49,13 +49,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// FileUpload1 control.
+        /// txtemail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.TextBox txtemail;
         
         /// <summary>
         /// Label4 control.
@@ -67,13 +67,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// txtaddress control.
+        /// txtphone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtaddress;
+        protected global::System.Web.UI.WebControls.TextBox txtphone;
         
         /// <summary>
         /// Label5 control.
@@ -85,13 +85,13 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// txtcontact control.
+        /// txtamount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtcontact;
+        protected global::System.Web.UI.WebControls.TextBox txtamount;
         
         /// <summary>
         /// Label6 control.
@@ -103,57 +103,21 @@ namespace ChurchWebPortal {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// txtstartdate control.
+        /// txtpurpose control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtstartdate;
+        protected global::System.Web.UI.WebControls.TextBox txtpurpose;
         
         /// <summary>
-        /// Label7 control.
+        /// btnpayment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
-        
-        /// <summary>
-        /// txtenddate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtenddate;
-        
-        /// <summary>
-        /// btnsubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsubmit;
-        
-        /// <summary>
-        /// btncancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btncancel;
-        
-        /// <summary>
-        /// GridView1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Button btnpayment;
     }
 }

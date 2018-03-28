@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mainadmin.Master" AutoEventWireup="true" CodeBehind="add_family.aspx.cs" Inherits="Assumption_Church.add_family" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainAdmin.Master" AutoEventWireup="true" CodeBehind="add_family.aspx.cs" Inherits="ChurchWebPortal.add_family" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
@@ -13,6 +13,17 @@
             width: 319px;
         }
         .form-control {}
+        .auto-style5 {
+            width: 179px;
+            height: 21px;
+        }
+        .auto-style6 {
+            width: 319px;
+            height: 21px;
+        }
+        .auto-style7 {
+            height: 21px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -61,7 +72,7 @@
                 <asp:Label ID="Label3" runat="server" Text="Family Name"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtfamilyname" CssClass="form-control" placeholder="Family Name" runat="server" Height="38px" Width="220px"></asp:TextBox>
+                <asp:TextBox ID="txtfamilyname" CssClass="form-control"  runat="server" Height="38px" Width="220px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -147,9 +158,9 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style2">&nbsp;</td>
-            <td class="auto-style4">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style5"></td>
+            <td class="auto-style6"></td>
+            <td class="auto-style7"></td>
         </tr>
         <tr>
             <td class="auto-style2">&nbsp;</td>
