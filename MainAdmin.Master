@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <head>
+    
 <title>Assumption church Eravinalloor</title>    
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
@@ -34,29 +34,114 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				<div class="logo">
-					<h1><a href="index.html">Assumption Church Eravinalloor</a></h1>
-				</div>	
+				<div class="logo" >
+                    <img src="church_images/3.jpg" height="80px" width="80px" />  </div>
+                    <div>            
+					<h1><a style="font-family:Algerian; color:white; vertical-align: bottom; text-decoration: none;">ASSUMPTION CHURCH ERAVINALLOOR</a></h1>
+                    <h4 style="color: #FFFFFF; font-style: italic">  Archdioces of Changanacherry</h4>
+				</div>		
 				</div>
 
+ <style>
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 1px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+</style>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<%--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="Priest_details.aspx">Add Priest</a></li>
 					<li><a href="Family.aspx">Add Family</a></li>
-					<%--<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="typography.html">Short Codes</a></li>
-						<li><a href="icons.html">Icons Page</a></li>
-					  </ul>
-					</li>--%>
-					<li><a href="blog.html">View Request</a></li>
-					<li><a href="contact.html">View Registration</a></li>
-                      <li><a href="mainHome.aspx">Logout</a></li>
-				  </ul>
-				</div>
+                      <li><a href="student_details.aspx">Add Students</a></li>
+                      <li><a href="teacher_details.aspx">Add teachers</a></li>--%>
+                      
+					
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+                      <li class="active"><a href="mainadminHome.aspx" style="font-family: 'Times New Roman', Times, serif">Home</a></li>
+					<%--<li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">Add Priest</a></li>
+					<li><a href="Family.aspx" style="font-family: 'Times New Roman', Times, serif">Add Family</a></li>
+                      <li><a href="student_details.aspx" style="font-family: 'Times New Roman', Times, serif">Add Students</a></li>
+                      <li><a href="teacher_details.aspx" style="font-family: 'Times New Roman', Times, serif">Add teachers</a></li>--%>
+                       
+                      <li><div class="dropdown">
+                 <button class="dropbtn" style="font-family: 'Times New Roman', Times, serif"> Family Details</button>
+                  <div class="dropdown-content">
+                 <a href="Family.aspx" style="font-family: 'Times New Roman', Times, serif">Add New Family</a>
+                  <a href="view_family.aspx" style="font-family: 'Times New Roman', Times, serif">View Families & Members</a>
+                     <a href="add_newMemb.aspx" style="font-family: 'Times New Roman', Times, serif">Add New Member</a>
+                      <a href="search_memb.aspx" style="font-family: 'Times New Roman', Times, serif">Search Family</a>
+                     </div>
+                    </div></li>
+
+
+                     <li><div class="dropdown">
+                 <button class="dropbtn" style="font-family: 'Times New Roman', Times, serif"> View Request</button>
+                  <div class="dropdown-content">
+                 <a href="view_baptRequest.aspx" style="font-family: 'Times New Roman', Times, serif">Baptism Certificate Request</a>
+                  <a href="view_mrgRequest.aspx" style="font-family: 'Times New Roman', Times, serif">Marriage Certificate Request</a>
+                     <a href="view_deathRqst.aspx" style="font-family: 'Times New Roman', Times, serif">Death Certificate Request</a>
+                     </div>
+                    </div></li>
+
+                      <li><div class="dropdown">
+                 <button class="dropbtn" style="font-family: 'Times New Roman', Times, serif"> View Registration</button>
+                  <div class="dropdown-content">
+                 <a href="view_BaptReg.aspx" style="font-family: 'Times New Roman', Times, serif">Baptism Registration</a>
+                  <a href="view_holycomreg.aspx" style="font-family: 'Times New Roman', Times, serif">Holy Communion Registration</a>                     
+                     </div>
+                    </div></li>
+                      <%--<li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">View Priest Details</a> </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      <li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">View Families & Members</a></li>
+                      <li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">Search Family</a></li>
+                      <li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">Add New Member</a></li>
+                      <li><a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">View Students</a></li>
+                      <li> <a href="Priest_details.aspx" style="font-family: 'Times New Roman', Times, serif">View teachers</a></li>--%>
+                      <li><a href="view_donation.aspx" style="font-family: 'Times New Roman', Times, serif">View Donation</a></li>
+                     
+                      <li><a href="MainHome1.aspx" style="font-family: 'Times New Roman', Times, serif">Logout</a></li>
+                      </ul>>
+                     
+
+                        </div>
+
 				<!-- /.navbar-collapse -->
 			  </div>
 			  <!-- /.container-fluid -->
@@ -66,11 +151,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</header>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-</head>
+
 <body>
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            
         
         </asp:ContentPlaceHolder>
     </div>

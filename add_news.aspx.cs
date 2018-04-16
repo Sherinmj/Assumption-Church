@@ -21,9 +21,16 @@ namespace ChurchWebPortal
 
         protected void btnsubmit_Click(object sender, EventArgs e)
         {
-            String ins = "insert into add_news values('" + txtheading.Text + "','" + txtdescription.Text + "')";
-            SqlCommand cmd = new SqlCommand(ins, con);
-            cmd.ExecuteNonQuery();
+            if (FileUpload1.HasFile)
+            {
+                string filename = FileUpload1.FileName;
+                FileUpload1.SaveAs(Server.MapPath("/Uploads/" + filename));
+                string path = "~/Uploads/" + filename;
+                String ins = "insert into add_news values('"+path+"','" + txtheading.Text + "','" + txtdescription.Text + "')";
+                SqlCommand cmd = new SqlCommand(ins, con);
+                cmd.ExecuteNonQuery();
+            }
+            
 
            
             txtheading.Text = "";

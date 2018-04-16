@@ -23,9 +23,19 @@ namespace ChurchWebPortal
             {
                 GenerateAutoID();
                 SetInitialRow();
-               
-
             }
+            
+
+                //SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Assumption"].ConnectionString);
+                //con.Open();
+                //SqlCommand cmd=new SqlCommand("select family_id from add_family",con);
+                //SqlDataReader dr=cmd.ExecuteReader();
+                //if(dr.Read())
+                //{
+                //    lblfamilyid.Text=dr["family_id"].ToString();
+                //}
+                //con.Close();
+                //}
         }
 
         public void getcon()
@@ -38,12 +48,28 @@ namespace ChurchWebPortal
         private void GenerateAutoID()
         {
             getcon();
-            string str = "select Count(family_id) from add_family";
+            string str = "select count(family_id) from add_family";
             SqlCommand cmd = new SqlCommand(str, con);
             int i = Convert.ToInt32(cmd.ExecuteScalar());
             con.Close();
             i++;
             lblfamilyid.Text = ID + i.ToString();
+
+
+            //getcon();
+            //string str = "select family_id from add_family";
+            //SqlCommand cmd = new SqlCommand(str, con);
+            //SqlDataAdapter adr = new SqlDataAdapter(cmd);
+            //DataTable dt = new DataTable();
+            //adr.Fill(dt);
+            //int i = Convert.ToInt32(dt.Rows[0][0].ToString());
+            //i++;
+
+            //lblfamilyid.Text = ID + i.ToString();
+            //con.Close();
+     
+           
+            
         }
         private void SetInitialRow()
         {
@@ -148,8 +174,8 @@ namespace ChurchWebPortal
 
         protected void btnadd_Click(object sender, EventArgs e)
         {
-            getcon();
 
+            getcon();
             String query = "insert into add_family (family_name,address,joining_date,email,contact,username,password) values('" + txtfamilyname.Text + "','" + txtaddress.Text + "','" + txtjoiningdate.Text + "','" + txtemail.Text + "','" + txtcontact + "','" + txtusername.Text + "','" + txtpasswd.Text + "');Select @@identity";            
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Assumption"].ConnectionString);
             con.Open();
@@ -165,14 +191,17 @@ namespace ChurchWebPortal
                 TextBox txtdob = gr.FindControl("txtdob") as TextBox;
                 TextBox txtrelation = gr.FindControl("txtrelation") as TextBox;
                 
-                String ins = "insert into add_memb(name,gender,dob,relation) values('" + txtname.Text + "','" + rbgender.SelectedItem.Text + "','" + txtdob.Text + "','" + txtrelation.Text + "')";
+                String ins = "insert into add_memb(family_id,name,gender,dob,relation) values('"+id.ToString()+"','" + txtname.Text + "','" + rbgender.SelectedItem.Text + "','" + txtdob.Text + "','" + txtrelation.Text + "')";
                 SqlCommand cmmd = new SqlCommand(ins,con);
                 cmmd.ExecuteNonQuery();
-                Response.Write("<script>alert('Saved Successfully)</script>");
+               
+                Session["family id"] = lblfamilyid.Text;
+
+               
             }
 
             con.Close();
-            
+            Response.Write("<script>alert('Saved Successfully)</script>");
 
            
         }
@@ -185,6 +214,38 @@ namespace ChurchWebPortal
         protected void GridView1_SelectedIndexChanged1(object sender, EventArgs e)
         {
              
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            
+           
+            txtfamilyname.Text = "";
+            txtaddress.Text = "";
+            txtjoiningdate.Text = "";
+            txtemail.Text = "";
+            txtcontact.Text = "";
+            txtusername.Text = "";
+            txtpasswd.Text = "";
+
+            foreach(GridViewRow row in GridView1.Rows)
+            {
+                foreach(TableCell cell in row.Cells)
+                {
+                    foreach(var control in cell.Controls)
+                    {
+                        var box = control as TextBox;
+                        if(box!=null)
+                        {
+                            box.Text = string.Empty;
+                        }
+                    }
+                }
+            }
+
+            GenerateAutoID();
+
+
         }
 
     }

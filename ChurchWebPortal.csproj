@@ -57,12 +57,47 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About Us.aspx" />
     <Content Include="about.html" />
     <Content Include="add_family.aspx" />
+    <Content Include="add_newMemb.aspx" />
     <Content Include="add_news.aspx" />
     <Content Include="Bapt_reg.aspx" />
     <Content Include="Bapt_request.aspx" />
-    <Content Include="blog.html" />
+    <Content Include="church_activity.aspx" />
+    <Content Include="church_images\0001.jpg" />
+    <Content Include="church_images\1.jpg" />
+    <Content Include="church_images\1111.jpg" />
+    <Content Include="church_images\13.jpg" />
+    <Content Include="church_images\2.jpg" />
+    <Content Include="church_images\22.jpg" />
+    <Content Include="church_images\3.jpg" />
+    <Content Include="church_images\11.jpg" />
+    <Content Include="church_images\cross-jesus.jpg" />
+    <Content Include="church_images\cross.jpg" />
+    <Content Include="church_images\cross1.jpg" />
+    <Content Include="church_images\img2.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0011.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0014.jpg" />
+    <Content Include="church_images\church_front.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0018.jpg" />
+    <Content Include="church_images\12.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0022.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0024.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0025.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0026.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0027.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0029.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0030.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0032.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0033.jpg" />
+    <Content Include="church_images\IMG-20180320-WA0034.jpg" />
+    <Content Include="church_images\j3 - Copy.jpg" />
+    <Content Include="church_images\j3.jpg" />
+    <Content Include="church_images\jesus-on-cross-0103.jpg" />
+    <Content Include="church_images\jesus.jpg" />
+    <Content Include="church_images\risen.jpg" />
+    <Content Include="contact.aspx" />
     <Content Include="contact.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\chocolat.css" />
@@ -111,33 +146,75 @@
     <Content Include="Login.aspx" />
     <Content Include="mainadminHome.aspx" />
     <Content Include="mainHome.aspx" />
+    <Content Include="MainHome1.aspx" />
     <Content Include="MainMasterHome.aspx" />
     <Content Include="Marriage_request.aspx" />
+    <Content Include="Mathrujyothis.aspx" />
+    <Content Include="MissionLeauge.aspx" />
+    <Content Include="new_memb.aspx" />
+    <Content Include="notification.aspx" />
     <Content Include="organizationHome.aspx" />
+    <Content Include="organizations.aspx" />
+    <Content Include="parishContact.aspx" />
     <Content Include="ParishmembHome.aspx" />
     <Content Include="Parish_memb.aspx" />
+    <Content Include="payment_parishmemb.aspx" />
+    <Content Include="Pithruvedi.aspx" />
     <Content Include="Prayer_request.aspx" />
     <Content Include="Priest_details.aspx" />
+    <Content Include="search_memb.aspx" />
     <Content Include="single.html" />
     <Content Include="student_details.aspx" />
     <Content Include="teacher_details.aspx" />
     <Content Include="typography.html" />
-    <Content Include="UserHome.aspx" />
+    <Content Include="userDonation.aspx" />
+    <Content Include="userFeedback.aspx" />
+    <Content Include="userGallery.aspx" />
+    <Content Include="userHome.aspx" />
     <Content Include="view_BaptReg.aspx" />
     <Content Include="view_baptRequest.aspx" />
+    <Content Include="view_deathRqst.aspx" />
+    <Content Include="view_donation.aspx" />
+    <Content Include="view_family.aspx" />
+    <Content Include="view_feedback.aspx" />
     <Content Include="view_gallery.aspx" />
+    <Content Include="view_holycomreg.aspx" />
+    <Content Include="view_mrgRequest.aspx" />
+    <Content Include="view_news.aspx" />
+    <Content Include="view_prayerRequest.aspx" />
     <Content Include="View_priest.aspx" />
-    <Content Include="View_profile.aspx" />
+    <Content Include="view_priestParishMemb.aspx" />
+    <Content Include="view_profile.aspx" />
+    <Content Include="view_students.aspx" />
+    <Content Include="view_studentsParishMemb.aspx" />
+    <Content Include="view_teachersAdmin.aspx" />
+    <Content Include="view_teachersParishMemb.aspx" />
     <Content Include="w3layouts-License.txt" />
     <Content Include="Web.config" />
+    <Content Include="WebForm7.aspx" />
+    <Content Include="yuvadeepthi.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
     <Compile Include="add_family.aspx.cs">
       <DependentUpon>add_family.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="add_family.aspx.designer.cs">
       <DependentUpon>add_family.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_newMemb.aspx.cs">
+      <DependentUpon>add_newMemb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_newMemb.aspx.designer.cs">
+      <DependentUpon>add_newMemb.aspx</DependentUpon>
     </Compile>
     <Compile Include="add_news.aspx.cs">
       <DependentUpon>add_news.aspx</DependentUpon>
@@ -159,6 +236,29 @@
     </Compile>
     <Compile Include="Bapt_request.aspx.designer.cs">
       <DependentUpon>Bapt_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="church_activity.aspx.cs">
+      <DependentUpon>church_activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="church_activity.aspx.designer.cs">
+      <DependentUpon>church_activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Death_request.aspx.cs">
       <DependentUpon>Death_request.aspx</DependentUpon>
@@ -244,6 +344,13 @@
     <Compile Include="mainHome.aspx.designer.cs">
       <DependentUpon>mainHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MainHome1.aspx.cs">
+      <DependentUpon>MainHome1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainHome1.aspx.designer.cs">
+      <DependentUpon>MainHome1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MainMasterHome.aspx.cs">
       <DependentUpon>MainMasterHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -257,6 +364,34 @@
     </Compile>
     <Compile Include="Marriage_request.aspx.designer.cs">
       <DependentUpon>Marriage_request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mathrujyothis.aspx.cs">
+      <DependentUpon>Mathrujyothis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mathrujyothis.aspx.designer.cs">
+      <DependentUpon>Mathrujyothis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MissionLeauge.aspx.cs">
+      <DependentUpon>MissionLeauge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MissionLeauge.aspx.designer.cs">
+      <DependentUpon>MissionLeauge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="new_memb.aspx.cs">
+      <DependentUpon>new_memb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new_memb.aspx.designer.cs">
+      <DependentUpon>new_memb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notification.aspx.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notification.aspx.designer.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
     </Compile>
     <Compile Include="Organization.Master.cs">
       <DependentUpon>Organization.Master</DependentUpon>
@@ -272,6 +407,20 @@
     <Compile Include="organizationHome.aspx.designer.cs">
       <DependentUpon>organizationHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="organizations.aspx.cs">
+      <DependentUpon>organizations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="organizations.aspx.designer.cs">
+      <DependentUpon>organizations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parishContact.aspx.cs">
+      <DependentUpon>parishContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parishContact.aspx.designer.cs">
+      <DependentUpon>parishContact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ParishmembHome.aspx.cs">
       <DependentUpon>ParishmembHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -285,6 +434,20 @@
     </Compile>
     <Compile Include="Parish_memb.aspx.designer.cs">
       <DependentUpon>Parish_memb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="payment_parishmemb.aspx.cs">
+      <DependentUpon>payment_parishmemb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payment_parishmemb.aspx.designer.cs">
+      <DependentUpon>payment_parishmemb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pithruvedi.aspx.cs">
+      <DependentUpon>Pithruvedi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pithruvedi.aspx.designer.cs">
+      <DependentUpon>Pithruvedi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Prayer_request.aspx.cs">
       <DependentUpon>Prayer_request.aspx</DependentUpon>
@@ -308,6 +471,13 @@
     <Compile Include="Parish_memb.Master.designer.cs">
       <DependentUpon>Parish_memb.Master</DependentUpon>
     </Compile>
+    <Compile Include="search_memb.aspx.cs">
+      <DependentUpon>search_memb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search_memb.aspx.designer.cs">
+      <DependentUpon>search_memb.aspx</DependentUpon>
+    </Compile>
     <Compile Include="student_details.aspx.cs">
       <DependentUpon>student_details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -322,12 +492,40 @@
     <Compile Include="teacher_details.aspx.designer.cs">
       <DependentUpon>teacher_details.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserHome.aspx.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
+    <Compile Include="user.Master.cs">
+      <DependentUpon>user.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserHome.aspx.designer.cs">
-      <DependentUpon>UserHome.aspx</DependentUpon>
+    <Compile Include="user.Master.designer.cs">
+      <DependentUpon>user.Master</DependentUpon>
+    </Compile>
+    <Compile Include="userDonation.aspx.cs">
+      <DependentUpon>userDonation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userDonation.aspx.designer.cs">
+      <DependentUpon>userDonation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userFeedback.aspx.cs">
+      <DependentUpon>userFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userFeedback.aspx.designer.cs">
+      <DependentUpon>userFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userGallery.aspx.cs">
+      <DependentUpon>userGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userGallery.aspx.designer.cs">
+      <DependentUpon>userGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userHome.aspx.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userHome.aspx.designer.cs">
+      <DependentUpon>userHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="view_BaptReg.aspx.cs">
       <DependentUpon>view_BaptReg.aspx</DependentUpon>
@@ -343,12 +541,68 @@
     <Compile Include="view_baptRequest.aspx.designer.cs">
       <DependentUpon>view_baptRequest.aspx</DependentUpon>
     </Compile>
+    <Compile Include="view_deathRqst.aspx.cs">
+      <DependentUpon>view_deathRqst.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_deathRqst.aspx.designer.cs">
+      <DependentUpon>view_deathRqst.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_donation.aspx.cs">
+      <DependentUpon>view_donation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_donation.aspx.designer.cs">
+      <DependentUpon>view_donation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_family.aspx.cs">
+      <DependentUpon>view_family.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_family.aspx.designer.cs">
+      <DependentUpon>view_family.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_feedback.aspx.cs">
+      <DependentUpon>view_feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_feedback.aspx.designer.cs">
+      <DependentUpon>view_feedback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="view_gallery.aspx.cs">
       <DependentUpon>view_gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="view_gallery.aspx.designer.cs">
       <DependentUpon>view_gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_holycomreg.aspx.cs">
+      <DependentUpon>view_holycomreg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_holycomreg.aspx.designer.cs">
+      <DependentUpon>view_holycomreg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_mrgRequest.aspx.cs">
+      <DependentUpon>view_mrgRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_mrgRequest.aspx.designer.cs">
+      <DependentUpon>view_mrgRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_news.aspx.cs">
+      <DependentUpon>view_news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_news.aspx.designer.cs">
+      <DependentUpon>view_news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_prayerRequest.aspx.cs">
+      <DependentUpon>view_prayerRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_prayerRequest.aspx.designer.cs">
+      <DependentUpon>view_prayerRequest.aspx</DependentUpon>
     </Compile>
     <Compile Include="View_priest.aspx.cs">
       <DependentUpon>View_priest.aspx</DependentUpon>
@@ -357,12 +611,61 @@
     <Compile Include="View_priest.aspx.designer.cs">
       <DependentUpon>View_priest.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View_profile.aspx.cs">
-      <DependentUpon>View_profile.aspx</DependentUpon>
+    <Compile Include="view_priestParishMemb.aspx.cs">
+      <DependentUpon>view_priestParishMemb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="View_profile.aspx.designer.cs">
-      <DependentUpon>View_profile.aspx</DependentUpon>
+    <Compile Include="view_priestParishMemb.aspx.designer.cs">
+      <DependentUpon>view_priestParishMemb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_profile.aspx.cs">
+      <DependentUpon>view_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_profile.aspx.designer.cs">
+      <DependentUpon>view_profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_students.aspx.cs">
+      <DependentUpon>view_students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_students.aspx.designer.cs">
+      <DependentUpon>view_students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_studentsParishMemb.aspx.cs">
+      <DependentUpon>view_studentsParishMemb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_studentsParishMemb.aspx.designer.cs">
+      <DependentUpon>view_studentsParishMemb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_teachersAdmin.aspx.cs">
+      <DependentUpon>view_teachersAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_teachersAdmin.aspx.designer.cs">
+      <DependentUpon>view_teachersAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view_teachersParishMemb.aspx.cs">
+      <DependentUpon>view_teachersParishMemb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view_teachersParishMemb.aspx.designer.cs">
+      <DependentUpon>view_teachersParishMemb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm7.aspx.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm7.aspx.designer.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuvadeepthi.aspx.cs">
+      <DependentUpon>yuvadeepthi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuvadeepthi.aspx.designer.cs">
+      <DependentUpon>yuvadeepthi.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -379,6 +682,18 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Main.Master" />
     <Content Include="Organization.Master" />
+    <Content Include="user.Master" />
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,7 +702,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="church_imgs\" />
     <Folder Include="Uploads\" />
   </ItemGroup>
   <PropertyGroup>

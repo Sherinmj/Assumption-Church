@@ -38,5 +38,10 @@ namespace ChurchWebPortal
             Response.Redirect("payment.aspx");
 
         }
+
+        protected void txtamount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

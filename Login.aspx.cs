@@ -21,6 +21,7 @@ namespace ChurchWebPortal
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            Session["username"] = txtuname.Text;
             SqlCommand cmd = new SqlCommand("select * from add_family where Username =@username and Password=@password", con);
             cmd.Parameters.AddWithValue("@username", txtuname.Text);
             cmd.Parameters.AddWithValue("@password", txtpasswd.Text);
